@@ -18,7 +18,7 @@ header{
     background-repeat: no-repeat;
     text-align: center;
     color: #FFFFFF;
-    padding: 260px 0;
+    padding: 200px 0;
 }
 
 header h1{
@@ -55,4 +55,24 @@ header a{
     padding: 16px 32px;
     display: inline-block;
     margin: 32px;
+}
+
+@media (max-width:900px) {
+    header{
+        padding: 60px 0;
+    }
+
+    header h1{
+        font-size: 48px;
+        line-height: 1;
+        margin: 20px 0;
+    }
+
+    header h2{
+        font-size: 20px;
+    }
+
+    header h3{
+        font-size: 12px;
+    }
 }
