@@ -216,7 +216,7 @@ footer a{
         font-size: 12px;
     }
 
-    .threeColumns{
+    .threeColumnsFooter{
         grid-template-columns: 1fr;
         text-align: center;
     }
@@ -231,12 +231,14 @@ footer a{
         font-size:24px;
     }
 
-    main img{
+    .mainBigImage{
         Width:350px;
         Height:230px;
     }
 
-
+    .threeColumnsMain{
+        grid-template-columns: 1fr;
+    }
 
 
 }
