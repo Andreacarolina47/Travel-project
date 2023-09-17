@@ -197,7 +197,7 @@ footer a{
     color: white;
 }
 
-@media (max-width:900px) {
+@media (max-width:840px) {
     header{
         padding: 60px 0;
     }
