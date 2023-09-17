@@ -9,7 +9,6 @@ body{
 }
 
 section{
-    max-width: 1200px;
     margin: 0 auto;
     padding: 100px 80px;
 }
@@ -80,15 +79,62 @@ footer{
     gap: 15px;
 }
 
-.threeColumns{
+.threeColumnsFooter{
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 2fr 1fr;
 }
 
-main img{
+.threeColumnsMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.mainBigImage{
     Width:570px;
     Height:461px;
+}
+
+.mainSmallImage{
+    width: 185px;
+    height: 185px;
+}
+
+.alignCenter{
+    text-align: center;   
+}
+
+
+.cardSection{
+   background-color:#fcf4d9;
+}
+
+.card{
+    background:#ffc93c ;
+    padding: 20px;
+}
+
+.card button{
+    padding: 10px 100px;
+    background-color: #fda403;
+    border-color:#fda403;
+    display: block;
+    margin-top: 30px;
+
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 1;
+}
+
+.cardFooter{
+    padding: 20px;
 }
 
 main h2{
@@ -111,6 +157,18 @@ main p{
     font-weight: 400px;
     font-size: 16px;
     line-height: 1.5;
+}
+
+main h4{
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 1;
+}
+
+main h5{
+    font-weight: 700px;
+    font-size: 13px;
+    line-height: 1;
 }
 
 footer h3{
