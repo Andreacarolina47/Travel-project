@@ -238,6 +238,7 @@ footer a{
 
     .threeColumnsMain{
         grid-template-columns: 1fr;
+        gap: 10px;
     }
 
     .card{
