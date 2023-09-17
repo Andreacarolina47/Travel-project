@@ -111,14 +111,14 @@ footer{
 }
 
 .card{
-    background:#ffc93c ;
+    background:#fff1c1;
     padding: 20px;
 }
 
 .card button{
     padding: 10px 100px;
-    background-color: #fda403;
-    border-color:#fda403;
+    background-color: #ffc93c;
+    border-color:#ffc93c;
     display: block;
     margin-top: 30px;
 
