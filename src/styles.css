@@ -99,6 +99,8 @@ footer{
 .mainSmallImage{
     width: 185px;
     height: 185px;
+    width: 100%;
+    display: block;
 }
 
 .alignCenter{
@@ -133,10 +135,21 @@ footer{
     line-height: 1;
 }
 
+.cardHeader{
+    gap: 0;
+}
+
 .cardFooter{
     padding: 20px;
 }
 
+
+
+.embed{
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: 185px;
+}
 main h2{
     font-weight: 700px;
     font-size: 16px;
@@ -247,6 +260,14 @@ footer a{
 
     section{
         padding: 50px 40px;
+    }
+
+    .cardHeader img{
+        display: none;
+    }
+
+    .embed{
+        aspect-ratio: 16/9;
     }
 
 
