@@ -5,13 +5,12 @@ body{
 
 .container{
     margin: 0 auto;
-    max-width: 1400px;
+    
 }
 
 section{
     margin: 0 auto;
     padding: 100px 80px;
-    max-width: 1200px;
 }
 
 header{
